@@ -1,3 +1,56 @@
-li {
-    
+#datetime-picker {
+    border-radius: 8px;
+    width: 272px;
+    height: 40px;
+    border: 1px solid #808080;
+    padding: 8px 16px;
+}
+
+button {
+    border-radius: 8px;
+    padding: 8px 16px;
+    min-width: 75px;
+    min-height: 40px;
+    font-weight: 500;
+    border: none;
+    margin-bottom: 32px;
+    background-color: #4e75ff;
+    color: #fff;
+}
+
+button:not(:disabled):hover {
+    background-color: #6C8CFF;
+}
+
+button:disabled {
+    color: #989898;
+    background-color: #CFCFCF;
+}
+
+.timer {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: row;
+    gap: 24px;
+    min-width: 346px;
+    min-height: 72px;
+}
+
+.field {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+    gap: 0px;
+}
+
+.value {
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 1.2;
+}
+
+.label {
+    text-transform: uppercase;
 }
