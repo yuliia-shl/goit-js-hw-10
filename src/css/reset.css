@@ -8,6 +8,7 @@ body {
   line-height: 1.5;
   letter-spacing: 0.04em;
   color: #2e2f42;
+  padding: 24px;
 }
 
 h1,
@@ -33,6 +34,12 @@ ul, li {
 a {
   color: currentColor;
   text-decoration: none;
+  display: block;
+  margin-bottom: 12px;
+}
+
+a:hover {
+  color: #4e75ff;
 }
 
 button {
